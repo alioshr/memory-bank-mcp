@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/alioshr-memory-bank-mcp-badge.png)](https://mseep.ai/app/alioshr-memory-bank-mcp)
+
 # Memory Bank MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@alioshr/memory-bank-mcp)](https://smithery.ai/server/@alioshr/memory-bank-mcp)
