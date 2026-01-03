@@ -20,6 +20,10 @@ export default () => {
         properties: {},
         required: [],
       },
+      annotations: {
+        title: "List Projects",
+        readOnlyHint: true,
+      },
     },
     handler: adaptMcpRequestHandler(makeListProjectsController()),
   });
@@ -37,6 +41,10 @@ export default () => {
           },
         },
         required: ["projectName"],
+      },
+      annotations: {
+        title: "List Project Files",
+        readOnlyHint: true,
       },
     },
     handler: adaptMcpRequestHandler(makeListProjectFilesController()),
@@ -59,6 +67,10 @@ export default () => {
           },
         },
         required: ["projectName", "fileName"],
+      },
+      annotations: {
+        title: "Read Memory Bank",
+        readOnlyHint: true,
       },
     },
     handler: adaptMcpRequestHandler(makeReadController()),
@@ -86,6 +98,10 @@ export default () => {
         },
         required: ["projectName", "fileName", "content"],
       },
+      annotations: {
+        title: "Write Memory Bank",
+        destructiveHint: false,
+      },
     },
     handler: adaptMcpRequestHandler(makeWriteController()),
   });
@@ -111,6 +127,10 @@ export default () => {
           },
         },
         required: ["projectName", "fileName", "content"],
+      },
+      annotations: {
+        title: "Update Memory Bank",
+        destructiveHint: true,
       },
     },
     handler: adaptMcpRequestHandler(makeUpdateController()),
