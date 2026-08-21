@@ -1,6 +1,6 @@
 # Memory Bank MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@alioshr/memory-bank-mcp)](https://smithery.ai/server/@alioshr/memory-bank-mcp)
+[![Listed on Skillselion](https://skillselion.com/badge/mcp/tool/io.github.alioshr/memory-bank-mcp.svg)](https://skillselion.com/mcp/tool/io.github.alioshr/memory-bank-mcp)
 [![npm version](https://badge.fury.io/js/%40allpepper%2Fmemory-bank-mcp.svg)](https://www.npmjs.com/package/@allpepper/memory-bank-mcp)
 [![npm downloads](https://img.shields.io/npm/dm/@allpepper/memory-bank-mcp.svg)](https://www.npmjs.com/package/@allpepper/memory-bank-mcp)
 
